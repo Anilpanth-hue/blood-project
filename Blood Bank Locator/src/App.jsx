@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './components/LoginPage';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>BLOOD BANK LOCATOR PROJECT</h1>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        {/* Add other routes here */}
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
