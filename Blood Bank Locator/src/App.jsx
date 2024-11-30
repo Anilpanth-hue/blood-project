@@ -1,9 +1,10 @@
 import React from 'react'
+import Login from './components/Login'
 
 const App = () => {
   return (
     <div>
-      <h1>BLOOD BANK LOCATOR PROJECT</h1>
+      <Login></Login>
     </div>
   )
 }
