@@ -1,0 +1,42 @@
+.blood-donate-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blood-donate-form h2 {
+    color: #dc3545;
+    margin-bottom: 1.5rem;
+  }
+  
+  .blood-donate-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blood-donate-form select,
+  .blood-donate-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .blood-donate-form button {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blood-donate-form button:hover {
+    background-color: #c82333;
+  }
+  
+  

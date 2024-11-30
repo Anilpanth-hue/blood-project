@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,8 +8,12 @@ export default function LoginPage() {
     // Add your login logic here
     console.log('Login submitted');
   };
+=======
+import React from "react";
+>>>>>>> 6cf7c2b (changes)
 
   return (
+<<<<<<< HEAD
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-xl shadow-md">
         <div>
@@ -28,8 +33,55 @@ export default function LoginPage() {
               <input
                 id="email-address"
                 name="email"
+=======
+    <div className="container relative min-h-screen flex-col items-center justify-center grid lg:max-w-none lg:grid-cols-2 lg:px-0">
+      <div className="relative hidden h-full flex-col bg-muted p-10 text-white lg:flex dark:border-r">
+        <div className="absolute inset-0 bg-purple-600">
+          <img
+            src="/placeholder.svg"
+            alt="Authentication background"
+            className="block dark:hidden object-cover"
+          />
+        </div>
+      </div>
+      <div className="lg:p-8">
+        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
+          <div className="flex flex-col space-y-2 text-left">
+            <img
+              src="/placeholder.svg"
+              alt="Logo"
+              className="mb-4"
+              style={{ width: 40, height: 40 }}
+            />
+            <h1 className="text-2xl font-semibold tracking-tight">
+              Create an account
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              Enter your details to get started
+            </p>
+          </div>
+          <div className="grid gap-4">
+            <div className="grid gap-2">
+              <label htmlFor="name">Full Name</label>
+              <input
+                id="name"
+                placeholder="John Doe"
+                type="text"
+                autoCapitalize="words"
+                autoComplete="name"
+                autoCorrect="off"
+                className="input"
+              />
+            </div>
+            <div className="grid gap-2">
+              <label htmlFor="email">Email address</label>
+              <input
+                id="email"
+                placeholder="name@example.com"
+>>>>>>> 6cf7c2b (changes)
                 type="email"
                 autoComplete="email"
+<<<<<<< HEAD
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-sm"
                 placeholder="Email address"
@@ -78,6 +130,44 @@ export default function LoginPage() {
             >
               Sign in
             </button>
+=======
+                autoCorrect="off"
+                className="input"
+              />
+            </div>
+            <div className="grid gap-2">
+              <label htmlFor="password">Password</label>
+              <input id="password" type="password" className="input" />
+            </div>
+            <div className="grid gap-2">
+              <label htmlFor="confirm-password">Confirm Password</label>
+              <input id="confirm-password" type="password" className="input" />
+            </div>
+          </div>
+          <button className="bg-purple-600 hover:bg-purple-500 button">
+            Sign up
+          </button>
+          <button
+            type="button"
+            className="flex items-center justify-center gap-2 button-outline"
+          >
+            <img
+              src="/placeholder.svg"
+              alt="Google"
+              className="h-5 w-5"
+              style={{ width: 20, height: 20 }}
+            />
+            Sign up with Google
+          </button>
+          <div className="text-center text-sm">
+            Already have an account?{" "}
+            <a
+              href="/auth/login"
+              className="text-purple-600 hover:text-purple-500"
+            >
+              Sign in
+            </a>
+>>>>>>> 6cf7c2b (changes)
           </div>
         </form>
         <div className="mt-6">
@@ -114,4 +204,7 @@ export default function LoginPage() {
     </div>
   );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf7c2b (changes)
